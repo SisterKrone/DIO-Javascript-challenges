@@ -16,7 +16,7 @@ function calcularValorProduto(condicao, precoEtiqueta) {
     if (condicao.toLowerCase() === 'debito') {
         return precoEtiqueta * 0.9;
     }
-    else if (condicao.toLowerCase() === 'dinheiro' || condicao === 'pix') {
+    else if (condicao.toLowerCase() === 'dinheiro' || condicao.toLowerCase() === 'pix') {
         return precoEtiqueta * 0.85;
     }
     else if (condicao.toLowerCase().toString() === '2x') {
