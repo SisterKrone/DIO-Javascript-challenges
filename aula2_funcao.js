@@ -25,9 +25,9 @@ function mostrarCondicao(peso, altura) {
     }
 }
 
-function main() {
+(function main() {
     console.log(mostrarCondicao(86, 1.84));
-}
+})();
 
-main();
+
 
