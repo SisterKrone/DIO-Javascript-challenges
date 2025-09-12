@@ -10,4 +10,4 @@ function descobrirJurosAplicado(valorPego, valorParaPagar) {
 
 console.log(incrementarJuros(80, 23));
 
-console.log(descobrirJurosAplicado(80, 98.4));
+console.log(descobrirJurosAplicado(80, 98.4).toFixed(2));
