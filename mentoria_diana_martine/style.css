@@ -1,0 +1,149 @@
+* {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+h1{
+    background-color: rgb(31, 31, 31);
+    border-radius: 8px;
+}
+
+span{
+    align-items: center;
+    font-size: 25px;
+}
+
+body {
+    background-color: black;
+    align-items: center;
+    display: grid;
+    grid-template-columns: max-content;
+    justify-content: center;
+    margin-top: 22%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(31, 31, 31);
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+button {
+    background-color: rgb(38, 34, 34);
+    border-radius: 7px;
+    border-color: rgb(156, 149, 149);
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button-clear {
+    width: 70px;
+    height: 50px;    
+    margin-bottom: 0px;
+    margin-right: 206px;
+}
+
+.button-clear:hover {
+    background-color: black;
+}
+
+.display input {
+    width: 80%;
+    padding: 5px;
+    border-radius: 6px;
+    height: 50px;
+    font-size: 3em;
+}
+
+.buttons {
+    width: 100%;
+    height: 61%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+
+}
+
+.first .button{
+    margin-top: 0;
+    width: 60px;
+    height: 50px;
+    padding: 2px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.second .button{
+    width: 60px;
+    height: 50px;
+    padding: 2px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.third .button{
+    width: 60px;
+    height: 50px;
+    padding: 2px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.fouth .button{
+    width: 60px;
+    height: 50px;
+    padding: 2px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.first .button:hover {
+    background-color: black;
+}
+.second .button:hover {
+    background-color: black;
+}
+.third .button:hover {
+    background-color: black;
+}
+.fouth .button:hover {
+    background-color: black;
+}
+
+@media (min-width: 480px) {
+    body{
+        margin-top: 15%;
+    }
+  
+}
+.wrap{
+    background-color: rgb(171, 171, 171);
+    padding: 15px;
+    border-radius: 9px;
+}
+
+@media (min-width: 700px) {
+    body{
+        margin-top: 4%;       
+    }
+  
+  main{
+    width: 300px;
+    height: 400px;
+  }
+
+}
