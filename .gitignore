@@ -17,6 +17,10 @@ pnpm-lock.yaml
 .env.local
 .env.*.local
 
+# Arquivos de configuração sensíveis 
+config.json
+*.secret.json
+
 # ===========================
 # Build / Output
 # ===========================
@@ -79,5 +83,4 @@ coverage/
 # ===========================
 # http-server
 # ===========================
-# (Se você usar cache ou diretório temporário para servir)
 .cache-http-server/
