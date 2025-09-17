@@ -130,6 +130,24 @@
     align-self: flex-end;
 }
 
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    background-color: #4e475d;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    padding: .25rem 0.5rem;
+    font-size: .625rem;
+}
+
 @media screen and (min-width:340px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
@@ -148,4 +166,11 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
+     .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+
 }
