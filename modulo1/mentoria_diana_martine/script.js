@@ -14,7 +14,7 @@ function clearAll() {
 
 function result() {
     let y = eval(display.value);
-    display.value = y.toFixed(4);
+    display.value = y.toFixed();
 
     if (display.value === 'undefined') {
         display.value = '';
