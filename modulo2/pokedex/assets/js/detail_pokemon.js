@@ -1,51 +1,14 @@
-(function main() {
+function showPokemonDetail(pokemon) {
+    const detailContainer = document.getElementById('pokemonDetail');
+    const listPokemonContainer = document.getElementById('pokemonList');
+    const loadMoreButton = document.getElementById('loadMoreButton');
+    
+    listPokemonContainer.style.display = 'none';
+    loadMoreButton.style.display = 'none';
 
-    const pokemonList = document.getElementById('pokemonList');
-    //const showDetailButton = document.querySelector('pokemon')
-    const limit = 5;
-    let offset = 0;
-    const pokemonDataMap = new Map();
-
-
-    function loadPokemonItens(offset, limit) {
-        pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
-            const newHtml = pokemons.map((pokemon) => {
-                pokemonDataMap.set(pokemon.number, pokemon);
-
-                return `
-                    <li type="button" class="pokemon ${pokemon.type}" data-number="${pokemon.number}">
-                        <span class="number">#${pokemon.number}</span>
-                        <span class="name">${pokemon.name}</span>
-                        
-                        <div class="detail">
-                            <ol class="types">
-                            ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
-                            </ol>
-                            <img src="${pokemon.photo}"
-                                alt="${pokemon.name}">
-                        </div>
-                    </li>
-        
-                `
-            }).join('');
-            pokemonList.innerHTML += newHtml
-
-        });
-    }
-
-
-    loadPokemonItens(offset, limit);
-
-    function showPokemonDetail(pokemon) {
-        const detailContainer = document.getElementById('pokemonDetail');
-        const listPokemonContainer = document.getElementById('pokemonList');
-
-        // esconde lista
-        listPokemonContainer.style.display = 'none';
-
-        // mostra card
-        detailContainer.style.display = 'grid';
-        detailContainer.innerHTML = `
+    
+    detailContainer.style.display = 'grid';
+    detailContainer.innerHTML = `
             <li class="pokemon ${pokemon.type}">
                 <span class="number_detail">#${pokemon.number}</span>
                 <span class="name_detail">${pokemon.name}</span>
@@ -76,22 +39,11 @@
                     
     `;
 
-        // botão de voltar
-        document.getElementById('backButton').addEventListener('click', () => {
-            detailContainer.style.display = 'none';
-            listPokemonContainer.style.display = 'block';
-        });
-    }
-
-
-    pokemonList.addEventListener('click', (event) => {
-        const clickedPokemon = event.target.closest('.pokemon');
-        if (clickedPokemon) {
-            const number = clickedPokemon.dataset.number;
-            const pokemonObj = pokemonDataMap.get(Number(number));
-
-            showPokemonDetail(pokemonObj);
-        }
+    
+    document.getElementById('backButton').addEventListener('click', () => {
+        detailContainer.style.display = 'none';
+        listPokemonContainer.style.display = 'grid';
+        loadMoreButton.style.display = 'block';
     });
+}
 
-})();
