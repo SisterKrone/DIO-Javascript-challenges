@@ -30,13 +30,13 @@ body {
     display: inline-block;
     position: fixed;
     top: -15rem;
-    left: -12rem;    
+    left: -12rem;
     z-index: -2;
     transform: rotate(143deg);
     background: #2d6f75;
-    background: linear-gradient(15deg,rgba(239, 45, 253, 1) 40%, rgb(27, 236, 255) 100%);
-    filter: blur(3rem);   
-    opacity: 0.7; 
+    background: linear-gradient(15deg, rgba(239, 45, 253, 1) 40%, rgb(27, 236, 255) 100%);
+    filter: blur(3rem);
+    opacity: 0.7;
 }
 
 .main::after {
@@ -46,12 +46,20 @@ body {
     width: 140vw;
     height: 70vh;
     display: inline-block;
-    position: fixed;    
-    right: -13rem;    
+    position: fixed;
+    right: -13rem;
     z-index: -2;
     transform: rotate(145deg);
     background: #2d6f75;
     background: linear-gradient(3deg, rgb(29, 188, 202) 0%, rgba(239, 45, 253, 1) 35%);
     filter: blur(3rem);
     opacity: 0.7;
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+
+    }
 }
