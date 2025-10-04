@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="/portfolio/assets/css/header.css">
     <link rel="stylesheet" href="/portfolio/assets/css/global.css">
     <link rel="stylesheet" href="/portfolio/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/portfolio/assets/css/languages.css">
     <title>Sister's Portfolio</title>
 </head>
 
 <body>
-    <div>
-        <div class="main">
+    <div class="wrap">
+        <main class="main">
             <header class="header">
                 <div class="third-sphere"></div>
                 <img src="/portfolio/assets/img/foto_meu_BELO_rosto.jpeg" alt="Imagem do meu rosto, belo por sinal"
@@ -64,16 +65,42 @@
             <section class="acordeon open">
                 <button class="trigger" type="button">Idiomas</button>
                 <div class="content">
-                    <ul>
+                    <ul class="languages">
                         <li>Português</li>
                         <li>Inglês</li>
                     </ul>
-                </div>                
+                </div>
             </section>
-        </div>
+
+            <section class="acordeon open">
+                <button class="trigger" type="button">Portfolio</button>
+                <div class="content">
+                    <ul class="portfolio">
+                        <li>
+                            <span class="title">To-Do List</span>
+                            <a href="https://github.com/SisterKrone/NLW-Lista-de-atividades-">https://github.com/SisterKrone/NLW-Lista-de-atividades-</a>
+                        </li>
+                        <li>
+                            <span class="title">Login page</span>
+                            <a href="https://github.com/SisterKrone/Front-end_D_C">https://github.com/SisterKrone/Front-end_D_C</a>
+                        </li>
+                        <li>
+                            <span class="title">Pomodoro API</span>
+                            <a href="https://github.com/SisterKrone/My_Pomodoro_backend">https://github.com/SisterKrone/My_Pomodoro_backend</a>
+                        </li>
+                        <li>
+                            <span class="title">Pokedex</span>
+                            <a href="https://github.com/SisterKrone/DIO-Javascript-challenges/tree/main/modulo2/pokedex">https://github.com/SisterKrone/DIO-Javascript-challenges/tree/main/modulo2/pokedex</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+        </main>
     </div>
     <script src="/portfolio/assets/js/acordeon.js"></script>
-    
+
 </body>
 
 </html>

@@ -7,8 +7,7 @@
 
 body {
     background-color: black;
-    color: white;
-    overflow: hidden;
+    color: white;    
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -21,33 +20,33 @@ body {
     border: 1px solid rgb(255, 255, 255);
 }
 
-.main::before {
+body::before {
     content: '';
     background-repeat: no-repeat;
     background-size: contain;
-    width: 140vw;
-    height: 60vh;
+    width: 240vw;
+    height: 90vh;
     display: inline-block;
     position: fixed;
-    top: -15rem;
-    left: -12rem;
+    top: -38rem;
+    left: -29rem;
     z-index: -2;
     transform: rotate(143deg);
     background: #2d6f75;
     background: linear-gradient(15deg, rgba(239, 45, 253, 1) 40%, rgb(27, 236, 255) 100%);
     filter: blur(3rem);
-    opacity: 0.7;
+    opacity: 0.7;    
 }
 
-.main::after {
+body::after {
     content: '';
     background-repeat: no-repeat;
     background-size: contain;
-    width: 140vw;
-    height: 70vh;
+    width: 240vw;
+    height: 90vh;
     display: inline-block;
-    position: fixed;
-    right: -13rem;
+    position: fixed;    
+    bottom: -24rem;
     z-index: -2;
     transform: rotate(145deg);
     background: #2d6f75;
@@ -65,4 +64,5 @@ body {
         margin: 1rem auto;
 
     }
+
 }
