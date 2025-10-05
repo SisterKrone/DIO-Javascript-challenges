@@ -10,23 +10,23 @@
         "hardSkills": [
             {
                 "name": "Nodejs",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+                "logo": "https://raw.githubusercontent.com/SisterKrone/DIO-Javascript-challenges/refs/heads/main/portfolio/assets/img/icons/node.svg"
             },
             {
                 "name": "JavaScript",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+                "logo": "https://raw.githubusercontent.com/SisterKrone/DIO-Javascript-challenges/refs/heads/main/portfolio/assets/img/icons/js.svg"
             },
             {
                 "name": "Git",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+                "logo": "https://raw.githubusercontent.com/SisterKrone/DIO-Javascript-challenges/refs/heads/main/portfolio/assets/img/icons/git.svg"
             },
             {
                 "name": "React",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+                "logo": "https://raw.githubusercontent.com/SisterKrone/DIO-Javascript-challenges/refs/heads/main/portfolio/assets/img/icons/react.svg"
             },
             {
                 "name": "Html",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+                "logo": "https://raw.githubusercontent.com/SisterKrone/DIO-Javascript-challenges/refs/heads/main/portfolio/assets/img/icons/html.svg"
             },
             {
                 "name": "Postgresql",
@@ -34,7 +34,7 @@
             },
             {
                 "name": "css",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+                "logo": "https://raw.githubusercontent.com/SisterKrone/DIO-Javascript-challenges/refs/heads/main/portfolio/assets/img/icons/css.svg"
             }
         ],
         "softSkills": [
