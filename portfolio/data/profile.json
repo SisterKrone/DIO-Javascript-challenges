@@ -1,0 +1,76 @@
+{
+    "name": "Luís Cláudio",
+    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+    "job": "Full Stack developer",
+    "location": "Salvador - BA",
+    "phone": "(71) 98336-6322",
+    "email": "luiz.fabiana12@gmail.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "Nodejs",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+            },
+            {
+                "name": "Java",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+            },
+            {
+                "name": "Angular",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+            },
+            {
+                "name": "React",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+            },
+            {
+                "name": "Mongodb",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+            },
+            {
+                "name": "Postgresql",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+            }
+        ],
+        "softSkills": [
+            "Proatividade e organização",
+            "Comunicação clara e empática",
+            "Trabalho em equipe",
+            "Foco em metas e resultados",
+            "Espírito empreendedor e adaptabilidade"
+        ]
+    },
+    "languages": [
+        "Português BR",
+        "Inglês (intermediário)"
+    ],
+    "portfolio": [
+        {
+            "name": "To-Do List",
+            "url": "https://github.com/SisterKrone/NLW-Lista-de-atividades-",
+            "github": true
+        },
+        {
+            "name": "Pokedex",
+            "url": "https://github.com/SisterKrone/DIO-Javascript-challenges/tree/main/modulo2/pokedex",
+            "github": true
+        },
+        {
+            "name": "Pomodoro API",
+            "url": "https://github.com/SisterKrone/My_Pomodoro_backend",
+            "github": true
+        },
+        {
+            "name": "Login page",
+            "url": "https://github.com/SisterKrone/Front-end_D_C",
+            "github": true
+        }
+    ],
+    "professionalExperience": [
+        {
+            "name": "Consultor de Expansão Comercial / JET Brasil",
+            "period": "07/2025 - 08/2025",
+            "description": "Identifiquei pontos estratégicos para instalação de estações de patinetes elétricos.\nNegociei com vinte e um estabelecimentos comerciais para obter autorização.\nRegistrei dados e formalizei vinte e um contratos.\nAcompanhei os resultados garantindo que os estacionamentos seguissem as diretrizes do órgão regulador."
+        }
+    ]
+}
