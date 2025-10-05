@@ -7,10 +7,20 @@
 
 body {
     background-color: black;
-    color: white;    
+    color: white;
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .main {
@@ -35,7 +45,7 @@ body::before {
     background: #2d6f75;
     background: linear-gradient(15deg, rgba(239, 45, 253, 1) 40%, rgb(27, 236, 255) 100%);
     filter: blur(3rem);
-    opacity: 0.7;    
+    opacity: 0.7;
 }
 
 body::after {
@@ -45,7 +55,7 @@ body::after {
     width: 240vw;
     height: 90vh;
     display: inline-block;
-    position: fixed;    
+    position: fixed;
     bottom: -24rem;
     z-index: -2;
     transform: rotate(145deg);
@@ -56,13 +66,18 @@ body::after {
 }
 
 @media only screen and (min-width: 768px) {
-    body{
+    body {
         padding: 2rem;
     }
+
+    body::before, 
+    body::after{
+        opacity: 0.3;
+    }
+
     .main {
         max-width: 1024px;
         margin: 1rem auto;
 
     }
-
 }

@@ -1,0 +1,44 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience .title {
+    font-weight: 700;
+}
+
+.experience ul {
+    list-style: none;
+}
+
+.experience ul li {
+    margin-top: 0.5rem;    
+}
+
+.experience li .period {
+    margin-left: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience li .period::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/portfolio/assets/img/icons/period.svg');
+    margin-right: 0.5rem;
+}
+
+.experience .job {
+    margin-bottom: 1rem;
+}
