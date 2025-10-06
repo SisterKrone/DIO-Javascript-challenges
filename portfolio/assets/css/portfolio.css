@@ -15,7 +15,7 @@
     margin-bottom: 1rem;
 }
 
-.portfolio li .title {
+.portfolio li h3 {
     font-weight: 700;
     margin: 0;
     margin-bottom: 0.5rem;
@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-.portfolio li .title.github::before {
+.portfolio li h3.github::before {
     content: "";
     display: inline-block;
     width: 1rem;
